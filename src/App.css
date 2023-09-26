@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container{
+  height: 400px;
+  width: 300px;
+}
+.input-container{
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.input-container>input{
+  flex: .7;
+  height: 30px;
+  outline: none;
+  padding-left: 5px;
+}
+.input-container>button{
+  margin-left: .2rem;
+  flex: .3;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+}
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
